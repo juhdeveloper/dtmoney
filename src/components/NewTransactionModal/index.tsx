@@ -25,9 +25,10 @@ export function NewTransactionModal ( {isOpen, onRequestClose }:NewTransactionMo
                  title,  
                  category, 
                  value, 
-                 type,}
+                 type,};
 
                  api.post('/transactions', data)
+
     }
 
     return (
